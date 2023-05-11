@@ -2692,26 +2692,17 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var IphonePreview = (component.exports);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidPreview.vue?vue&type=template&id=4f7eb6e5&
-var AndroidPreviewvue_type_template_id_4f7eb6e5_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-wrapper-pixel_4'],style:([_vm.backgroundStyle, _vm.sizeStyle])},[_c('div',{staticClass:"vpnp-pixel_4"},[_c('div',{staticClass:"vpnp-content"},[_c('div',{staticClass:"vpnp-header"},[_vm._t("header")],2),_c('div',{class:['vpnp-notification', _vm.appearanceModeClass, _vm.notificationExpandedClass]},[_c('div',{staticClass:"vpnp-notification-heading"},[_c('p',{staticClass:"vpnp-notification-application-icon"}),_c('p',{staticClass:"vpnp-notification-application-name",domProps:{"innerHTML":_vm._s(_vm.textApplicationName)}}),_c('div',{staticClass:"vpnp-notification-application-time-container"},[_c('p',{staticClass:"vpnp-notification-application-time-separator",domProps:{"innerHTML":_vm._s('&#183;')}}),_c('p',{staticClass:"vpnp-notification-application-time",domProps:{"innerHTML":_vm._s(_vm.textTime)}})]),(_vm.isVisibleToggler)?_c('a',{staticClass:"vpnp-notification-toggler",on:{"click":_vm.toggleNotification}},[_c('i',{class:['vpnp-notification-toggler-arrow', (!_vm.isExpanded ? 'down' : 'up')]})]):_vm._e()]),(_vm.hasContent)?_c('div',{staticClass:"vpnp-notification-content"},[_c('div',{staticClass:"vpnp-notification-content-text"},[(_vm.hasTitle)?_c('p',{staticClass:"vpnp-notification-title",domProps:{"innerHTML":_vm._s(_vm.textTitle)}}):_vm._e(),(_vm.hasBody)?_c('p',{staticClass:"vpnp-notification-body",domProps:{"innerHTML":_vm._s(_vm.textBody)}}):_vm._e()]),(_vm.hasImage)?_c('div',{staticClass:"vpnp-notification-content-image",style:([ _vm.notificationImageStyle ])}):_vm._e()]):_vm._e()])])])])}
-var AndroidPreviewvue_type_template_id_4f7eb6e5_staticRenderFns = []
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidPreview.vue?vue&type=template&id=77874742&
+var AndroidPreviewvue_type_template_id_77874742_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-wrapper-pixel_4'],style:([_vm.backgroundStyle, _vm.sizeStyle])},[_c('div',{staticClass:"vpnp-pixel_4"},[_c('div',{staticClass:"vpnp-content"},[_c('div',{staticClass:"vpnp-header"},[_vm._t("header")],2),_vm._l((_vm.notifications),function(notification,index){return _c('android-notification',_vm._b({key:index},'android-notification',notification,false))})],2)])])}
+var AndroidPreviewvue_type_template_id_77874742_staticRenderFns = []
 
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-80[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidPreview.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidNotification.vue?vue&type=template&id=09903042&
+var AndroidNotificationvue_type_template_id_09903042_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-notification', _vm.appearanceModeClass, _vm.notificationExpandedClass]},[_c('div',{staticClass:"vpnp-notification-heading"},[_c('p',{staticClass:"vpnp-notification-application-icon"}),_c('p',{staticClass:"vpnp-notification-application-name",domProps:{"innerHTML":_vm._s(_vm.textApplicationName)}}),_c('div',{staticClass:"vpnp-notification-application-time-container"},[_c('p',{staticClass:"vpnp-notification-application-time-separator",domProps:{"innerHTML":_vm._s('&#183;')}}),_c('p',{staticClass:"vpnp-notification-application-time",domProps:{"innerHTML":_vm._s(_vm.textTime)}})]),(_vm.isVisibleToggler)?_c('a',{staticClass:"vpnp-notification-toggler",on:{"click":_vm.toggleNotification}},[_c('i',{class:['vpnp-notification-toggler-arrow', (!_vm.isExpanded ? 'down' : 'up')]})]):_vm._e()]),(_vm.hasContent)?_c('div',{staticClass:"vpnp-notification-content"},[_c('div',{staticClass:"vpnp-notification-content-text"},[(_vm.hasTitle)?_c('p',{staticClass:"vpnp-notification-title",domProps:{"innerHTML":_vm._s(_vm.textTitle)}}):_vm._e(),(_vm.hasBody)?_c('p',{staticClass:"vpnp-notification-body",domProps:{"innerHTML":_vm._s(_vm.textBody)}}):_vm._e()]),(_vm.hasImage)?_c('div',{staticClass:"vpnp-notification-content-image",style:([ _vm.notificationImageStyle ])}):_vm._e()]):_vm._e()])}
+var AndroidNotificationvue_type_template_id_09903042_staticRenderFns = []
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-80[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidNotification.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -2779,9 +2770,8 @@ var AndroidPreviewvue_type_template_id_4f7eb6e5_staticRenderFns = []
 //
 //
 
-
-/* harmony default export */ var AndroidPreviewvue_type_script_lang_js_ = ({
-  name: 'AndroidPreview',
+/* harmony default export */ var AndroidNotificationvue_type_script_lang_js_ = ({
+  name: 'AndroidNotification',
   mixins: [deviceMixin],
   props: {
     textApplicationName: {
@@ -2803,13 +2793,79 @@ var AndroidPreviewvue_type_template_id_4f7eb6e5_staticRenderFns = []
       type: String,
       default: ''
     },
+    isVisibleToggler: {
+      type: Boolean,
+      default: false
+    }
+  },
+  computed: {
+    hasContent: function hasContent() {
+      return this.hasTitle || this.hasBody || this.hasImage;
+    }
+  }
+});
+;// CONCATENATED MODULE: ./src/components/AndroidNotification.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_AndroidNotificationvue_type_script_lang_js_ = (AndroidNotificationvue_type_script_lang_js_); 
+;// CONCATENATED MODULE: ./src/components/AndroidNotification.vue
+
+
+
+
+
+/* normalize component */
+;
+var AndroidNotification_component = normalizeComponent(
+  components_AndroidNotificationvue_type_script_lang_js_,
+  AndroidNotificationvue_type_template_id_09903042_render,
+  AndroidNotificationvue_type_template_id_09903042_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var AndroidNotification = (AndroidNotification_component.exports);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-80[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidPreview.vue?vue&type=script&lang=js&
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ var AndroidPreviewvue_type_script_lang_js_ = ({
+  name: 'AndroidPreview',
+  components: {
+    AndroidNotification: AndroidNotification
+  },
+  mixins: [deviceMixin],
+  props: {
     height: {
       type: Number,
       default: DEVICE_SIZE.PIXEL_4_HEIGHT
     },
-    isVisibleToggler: {
-      type: Boolean,
-      default: false
+    notifications: {
+      type: Array,
+      default: function _default() {
+        return [{
+          textApplicationName: 'App name'
+        }];
+      }
     }
   },
   computed: {
@@ -2818,9 +2874,6 @@ var AndroidPreviewvue_type_template_id_4f7eb6e5_staticRenderFns = []
         height: "".concat(this.height, "px"),
         width: "".concat(this.height * (DEVICE_SIZE.PIXEL_4_WIDTH / DEVICE_SIZE.PIXEL_4_HEIGHT), "px")
       };
-    },
-    hasContent: function hasContent() {
-      return this.hasTitle || this.hasBody || this.hasImage;
     }
   }
 });
@@ -2836,8 +2889,8 @@ var AndroidPreviewvue_type_template_id_4f7eb6e5_staticRenderFns = []
 ;
 var AndroidPreview_component = normalizeComponent(
   components_AndroidPreviewvue_type_script_lang_js_,
-  AndroidPreviewvue_type_template_id_4f7eb6e5_render,
-  AndroidPreviewvue_type_template_id_4f7eb6e5_staticRenderFns,
+  AndroidPreviewvue_type_template_id_77874742_render,
+  AndroidPreviewvue_type_template_id_77874742_staticRenderFns,
   false,
   null,
   null,
