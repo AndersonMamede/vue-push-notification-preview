@@ -2341,8 +2341,8 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/IphonePreview.vue?vue&type=template&id=560724b6&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-wrapper-iphone_x'],style:([_vm.backgroundStyle, _vm.sizeStyle])},[_c('div',{staticClass:"vpnp-iphone_x"},[_c('div',{staticClass:"vpnp-content"},[_c('div',{staticClass:"vpnp-header"},[_vm._t("header")],2),_c('div',{class:['vpnp-notification', _vm.appearanceModeClass, _vm.notificationExpandedClass]},[_c('div',{staticClass:"vpnp-notification-heading"},[_c('div',{staticClass:"vpnp-notification-heading-icon-name-container"},[_c('p',{staticClass:"vpnp-notification-application-icon",on:{"click":_vm.toggleNotification}}),_c('p',{staticClass:"vpnp-notification-application-name",domProps:{"innerHTML":_vm._s(_vm.textApplicationName)}})]),_c('p',{staticClass:"vpnp-notification-time",domProps:{"innerHTML":_vm._s(_vm.textTime)}})]),_c('div',{staticClass:"vpnp-notification-content"},[_c('div',{staticClass:"vpnp-notification-content-text"},[(_vm.hasTitle)?_c('p',{staticClass:"vpnp-notification-title",domProps:{"innerHTML":_vm._s(_vm.textTitle)}}):_vm._e(),(_vm.hasBody)?_c('p',{staticClass:"vpnp-notification-body",domProps:{"innerHTML":_vm._s(_vm.textBody)}}):_vm._e()]),(_vm.hasImage)?_c('div',{staticClass:"vpnp-notification-content-image",style:([ _vm.notificationImageStyle ])}):_vm._e()])])])])])}
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/IphonePreview.vue?vue&type=template&id=85281204&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-wrapper-iphone_x'],style:([_vm.backgroundStyle, _vm.sizeStyle])},[_c('div',{staticClass:"vpnp-iphone_x"},[_c('div',{staticClass:"vpnp-content"},[_c('div',{staticClass:"vpnp-header"},[_vm._t("header")],2),_vm._l((_vm.notifications),function(notification,index){return _c('iphone-notification',_vm._b({key:index},'iphone-notification',notification,false))})],2)])])}
 var staticRenderFns = []
 
 
@@ -2457,23 +2457,12 @@ var deviceMixin = {
     }
   }
 };
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/IphonePreview.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/IphoneNotification.vue?vue&type=template&id=49ac6178&
+var IphoneNotificationvue_type_template_id_49ac6178_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-notification', _vm.appearanceModeClass, _vm.notificationExpandedClass]},[_c('div',{staticClass:"vpnp-notification-heading"},[_c('div',{staticClass:"vpnp-notification-heading-icon-name-container"},[_c('p',{staticClass:"vpnp-notification-application-icon",on:{"click":_vm.toggleNotification}}),_c('p',{staticClass:"vpnp-notification-application-name",domProps:{"innerHTML":_vm._s(_vm.textApplicationName)}})]),_c('p',{staticClass:"vpnp-notification-time",domProps:{"innerHTML":_vm._s(_vm.textTime)}})]),_c('div',{staticClass:"vpnp-notification-content"},[_c('div',{staticClass:"vpnp-notification-content-text"},[(_vm.hasTitle)?_c('p',{staticClass:"vpnp-notification-title",domProps:{"innerHTML":_vm._s(_vm.textTitle)}}):_vm._e(),(_vm.hasBody)?_c('p',{staticClass:"vpnp-notification-body",domProps:{"innerHTML":_vm._s(_vm.textBody)}}):_vm._e()]),(_vm.hasImage)?_c('div',{staticClass:"vpnp-notification-content-image",style:([ _vm.notificationImageStyle ])}):_vm._e()])])}
+var IphoneNotificationvue_type_template_id_49ac6178_staticRenderFns = []
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/IphoneNotification.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -2522,9 +2511,8 @@ var deviceMixin = {
 //
 //
 
-
-/* harmony default export */ var IphonePreviewvue_type_script_lang_js_ = ({
-  name: 'IphonePreview',
+/* harmony default export */ var IphoneNotificationvue_type_script_lang_js_ = ({
+  name: 'IphoneNotification',
   mixins: [deviceMixin],
   props: {
     textApplicationName: {
@@ -2545,23 +2533,11 @@ var deviceMixin = {
     textBody: {
       type: String,
       default: ''
-    },
-    height: {
-      type: Number,
-      default: DEVICE_SIZE.IPHONE_X_HEIGHT
-    }
-  },
-  computed: {
-    sizeStyle: function sizeStyle() {
-      return {
-        height: "".concat(this.height, "px"),
-        width: "".concat(this.height * (DEVICE_SIZE.IPHONE_X_WIDTH / DEVICE_SIZE.IPHONE_X_HEIGHT), "px")
-      };
     }
   }
 });
-;// CONCATENATED MODULE: ./src/components/IphonePreview.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_IphonePreviewvue_type_script_lang_js_ = (IphonePreviewvue_type_script_lang_js_); 
+;// CONCATENATED MODULE: ./src/components/IphoneNotification.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_IphoneNotificationvue_type_script_lang_js_ = (IphoneNotificationvue_type_script_lang_js_); 
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -2662,7 +2638,7 @@ function normalizeComponent (
   }
 }
 
-;// CONCATENATED MODULE: ./src/components/IphonePreview.vue
+;// CONCATENATED MODULE: ./src/components/IphoneNotification.vue
 
 
 
@@ -2671,6 +2647,81 @@ function normalizeComponent (
 /* normalize component */
 ;
 var component = normalizeComponent(
+  components_IphoneNotificationvue_type_script_lang_js_,
+  IphoneNotificationvue_type_template_id_49ac6178_render,
+  IphoneNotificationvue_type_template_id_49ac6178_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var IphoneNotification = (component.exports);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/IphonePreview.vue?vue&type=script&lang=js&
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ var IphonePreviewvue_type_script_lang_js_ = ({
+  name: 'IphonePreview',
+  components: {
+    IphoneNotification: IphoneNotification
+  },
+  mixins: [deviceMixin],
+  props: {
+    height: {
+      type: Number,
+      default: DEVICE_SIZE.IPHONE_X_HEIGHT
+    },
+    notifications: {
+      type: Array,
+      default: function _default() {
+        return [{
+          textApplicationName: 'App name'
+        }];
+      }
+    }
+  },
+  computed: {
+    sizeStyle: function sizeStyle() {
+      return {
+        height: "".concat(this.height, "px"),
+        width: "".concat(this.height * (DEVICE_SIZE.IPHONE_X_WIDTH / DEVICE_SIZE.IPHONE_X_HEIGHT), "px")
+      };
+    }
+  }
+});
+;// CONCATENATED MODULE: ./src/components/IphonePreview.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_IphonePreviewvue_type_script_lang_js_ = (IphonePreviewvue_type_script_lang_js_); 
+;// CONCATENATED MODULE: ./src/components/IphonePreview.vue
+
+
+
+
+
+/* normalize component */
+;
+var IphonePreview_component = normalizeComponent(
   components_IphonePreviewvue_type_script_lang_js_,
   render,
   staticRenderFns,
@@ -2681,15 +2732,15 @@ var component = normalizeComponent(
   
 )
 
-/* harmony default export */ var IphonePreview = (component.exports);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidPreview.vue?vue&type=template&id=77874742&
-var AndroidPreviewvue_type_template_id_77874742_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-wrapper-pixel_4'],style:([_vm.backgroundStyle, _vm.sizeStyle])},[_c('div',{staticClass:"vpnp-pixel_4"},[_c('div',{staticClass:"vpnp-content"},[_c('div',{staticClass:"vpnp-header"},[_vm._t("header")],2),_vm._l((_vm.notifications),function(notification,index){return _c('android-notification',_vm._b({key:index},'android-notification',notification,false))})],2)])])}
-var AndroidPreviewvue_type_template_id_77874742_staticRenderFns = []
+/* harmony default export */ var IphonePreview = (IphonePreview_component.exports);
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidPreview.vue?vue&type=template&id=4aa24512&
+var AndroidPreviewvue_type_template_id_4aa24512_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-wrapper-pixel_4'],style:([_vm.backgroundStyle, _vm.sizeStyle])},[_c('div',{staticClass:"vpnp-pixel_4"},[_c('div',{staticClass:"vpnp-content"},[_c('div',{staticClass:"vpnp-header"},[_vm._t("header")],2),_vm._l((_vm.notifications),function(notification,index){return _c('android-notification',_vm._b({key:index},'android-notification',notification,false))})],2)])])}
+var AndroidPreviewvue_type_template_id_4aa24512_staticRenderFns = []
 
 
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidNotification.vue?vue&type=template&id=09903042&
-var AndroidNotificationvue_type_template_id_09903042_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-notification', _vm.appearanceModeClass, _vm.notificationExpandedClass]},[_c('div',{staticClass:"vpnp-notification-heading"},[_c('p',{staticClass:"vpnp-notification-application-icon"}),_c('p',{staticClass:"vpnp-notification-application-name",domProps:{"innerHTML":_vm._s(_vm.textApplicationName)}}),_c('div',{staticClass:"vpnp-notification-application-time-container"},[_c('p',{staticClass:"vpnp-notification-application-time-separator",domProps:{"innerHTML":_vm._s('&#183;')}}),_c('p',{staticClass:"vpnp-notification-application-time",domProps:{"innerHTML":_vm._s(_vm.textTime)}})]),(_vm.isVisibleToggler)?_c('a',{staticClass:"vpnp-notification-toggler",on:{"click":_vm.toggleNotification}},[_c('i',{class:['vpnp-notification-toggler-arrow', (!_vm.isExpanded ? 'down' : 'up')]})]):_vm._e()]),(_vm.hasContent)?_c('div',{staticClass:"vpnp-notification-content"},[_c('div',{staticClass:"vpnp-notification-content-text"},[(_vm.hasTitle)?_c('p',{staticClass:"vpnp-notification-title",domProps:{"innerHTML":_vm._s(_vm.textTitle)}}):_vm._e(),(_vm.hasBody)?_c('p',{staticClass:"vpnp-notification-body",domProps:{"innerHTML":_vm._s(_vm.textBody)}}):_vm._e()]),(_vm.hasImage)?_c('div',{staticClass:"vpnp-notification-content-image",style:([ _vm.notificationImageStyle ])}):_vm._e()]):_vm._e()])}
-var AndroidNotificationvue_type_template_id_09903042_staticRenderFns = []
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidNotification.vue?vue&type=template&id=b007c742&
+var AndroidNotificationvue_type_template_id_b007c742_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:['vpnp-notification', _vm.appearanceModeClass, _vm.notificationExpandedClass]},[_c('div',{staticClass:"vpnp-notification-heading"},[_c('p',{staticClass:"vpnp-notification-application-icon"}),_c('p',{staticClass:"vpnp-notification-application-name",domProps:{"innerHTML":_vm._s(_vm.textApplicationName)}}),_c('div',{staticClass:"vpnp-notification-application-time-container"},[_c('p',{staticClass:"vpnp-notification-application-time-separator",domProps:{"innerHTML":_vm._s('&#183;')}}),_c('p',{staticClass:"vpnp-notification-application-time",domProps:{"innerHTML":_vm._s(_vm.textTime)}})]),(_vm.isVisibleToggler)?_c('a',{staticClass:"vpnp-notification-toggler",on:{"click":_vm.toggleNotification}},[_c('i',{class:['vpnp-notification-toggler-arrow', (!_vm.isExpanded ? 'down' : 'up')]})]):_vm._e()]),(_vm.hasContent)?_c('div',{staticClass:"vpnp-notification-content"},[_c('div',{staticClass:"vpnp-notification-content-text"},[(_vm.hasTitle)?_c('p',{staticClass:"vpnp-notification-title",domProps:{"innerHTML":_vm._s(_vm.textTitle)}}):_vm._e(),(_vm.hasBody)?_c('p',{staticClass:"vpnp-notification-body",domProps:{"innerHTML":_vm._s(_vm.textBody)}}):_vm._e()]),(_vm.hasImage)?_c('div',{staticClass:"vpnp-notification-content-image",style:([ _vm.notificationImageStyle ])}):_vm._e()]):_vm._e()])}
+var AndroidNotificationvue_type_template_id_b007c742_staticRenderFns = []
 
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40[0].rules[0].use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/AndroidNotification.vue?vue&type=script&lang=js&
@@ -2806,8 +2857,8 @@ var AndroidNotificationvue_type_template_id_09903042_staticRenderFns = []
 ;
 var AndroidNotification_component = normalizeComponent(
   components_AndroidNotificationvue_type_script_lang_js_,
-  AndroidNotificationvue_type_template_id_09903042_render,
-  AndroidNotificationvue_type_template_id_09903042_staticRenderFns,
+  AndroidNotificationvue_type_template_id_b007c742_render,
+  AndroidNotificationvue_type_template_id_b007c742_staticRenderFns,
   false,
   null,
   null,
@@ -2879,8 +2930,8 @@ var AndroidNotification_component = normalizeComponent(
 ;
 var AndroidPreview_component = normalizeComponent(
   components_AndroidPreviewvue_type_script_lang_js_,
-  AndroidPreviewvue_type_template_id_77874742_render,
-  AndroidPreviewvue_type_template_id_77874742_staticRenderFns,
+  AndroidPreviewvue_type_template_id_4aa24512_render,
+  AndroidPreviewvue_type_template_id_4aa24512_staticRenderFns,
   false,
   null,
   null,
