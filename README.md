@@ -53,7 +53,7 @@ Visit: https://nenadjovanoski.github.io/vue-push-notification-preview/
 
 ### Props
 
-All props for `AndroidPreview` component:
+`AndroidPreview` accepts a list of notifications to display through its `notifications` (array) prop. Each item in `notifications` is an object with the following properties:
 
 | Name                      | Type      | Default                       | Description |
 | ---                       | ---       | ---                           | ---         |
@@ -69,7 +69,7 @@ All props for `AndroidPreview` component:
 | isVisibleToggler          | Boolean   | false                         | A prop for managing when arrow toggler is visible in notification. |
 
 <br />
-All props for `IphonePreview` component:
+`IphonePreview` accepts a list of notifications to display through its `notifications` (array) prop. Each item in `notifications` is an object with the following properties:
 
 | Name                      | Type      | Default                       | Description |
 | ---                       | ---       | ---                           | ---         |
